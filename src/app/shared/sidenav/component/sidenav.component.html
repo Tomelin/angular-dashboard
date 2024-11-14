@@ -1,0 +1,17 @@
+<div class="sidenav-header">
+  <img
+    [width]="profilePicSize()"
+    [height]="profilePicSize()"
+    src="/assets/imgs/profile.jpg"
+    alt="profile"
+  />
+  <div class="header-text" [class.hide-header-text]="sideNavCollapsed()">
+    <h2>Your Template</h2>
+    <p>Rafael Tomelin</p>
+  </div>
+</div>
+<mat-nav-list>
+  @for (item of menuItems(); track item.label) {
+    <app-menu-item [item]="item" [collapsed]="sideNavCollapsed()"></app-menu-item>
+  }
+</mat-nav-list>

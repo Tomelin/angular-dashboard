@@ -1,0 +1,39 @@
+# Archtecture of directories
+
+core/
+  services/
+    auth.service.ts
+    user.service.ts
+  guards/
+    auth.guard.ts
+  interceptors/
+    auth.interceptor.ts
+shared/
+  components/
+    sidenav/
+      sidenav.component.ts
+      sidenav.component.html
+      sidenav.component.scss
+    toolbar/
+      toolbar.component.ts
+      toolbar.component.html
+      toolbar.component.scss
+    menu-item/
+      menu-item.component.ts
+      menu-item.component.html
+      menu-item.component.scss
+  directives/
+    highlight.directive.ts
+  pipes/
+    date-format.pipe.ts
+  models/
+    user.model.ts
+modules/
+  home/
+    home.component.ts
+    home.component.html
+    home.component.scss
+  about/
+    about.component.ts
+    about.component.html
+    about.component.scss
