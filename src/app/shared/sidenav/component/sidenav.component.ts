@@ -4,7 +4,7 @@ import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
 import { Router, RouterModule } from '@angular/router';
 import { MenuItemComponent } from '../../components/menu-item/menu-item.component';
-import { DashboardComponent } from '../../../modules/dashboard/pages/dashboard/dashboard.component';
+import { DashboardComponent } from '../../../modules/pages/dashboard/dashboard.component';
 import { ContentComponent } from '../../../modules/content/pages/content/content.component';
 import { PostsComponent } from '../../../modules/content/pages/content/posts/posts.component';
 import { VideosComponent } from '../../../modules/content/pages/content/videos/videos.component';

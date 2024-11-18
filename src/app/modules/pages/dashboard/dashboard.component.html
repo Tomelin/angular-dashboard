@@ -1,0 +1,6 @@
+<h1>Channel dashbaord</h1>
+<div class="dashboard-widgets">
+  @for(w of store.widgets(); track w.id){
+  <app-widget [data]="w" />
+  }
+</div>
