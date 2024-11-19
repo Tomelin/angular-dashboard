@@ -1,6 +1,6 @@
 import { Route, Routes } from '@angular/router';
-import { allMenuItems } from './shared/sidenav/component/sidenav.component';
-import { TMenuItem } from './shared/sidenav/interface/i-menu-item';
+import { allMenuItems } from './core/sidenav/component/sidenav.component';
+import { TMenuItem } from './core/sidenav/interface/i-menu-item';
 
 const itemToRoute = (item: TMenuItem): Route => {
 

@@ -4,9 +4,9 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatSidenavModule } from '@angular/material/sidenav';
-import { SidenavComponent } from "./shared/sidenav/component/sidenav.component";
-import { MenuItemComponent } from './shared/components/menu-item/menu-item.component';
-import { ToolbarComponent } from './shared/components/toolbar/toolbar.component';
+import { SidenavComponent } from "./core/sidenav/component/sidenav.component";
+import { MenuItemComponent } from './core/components/menu-item/menu-item.component';
+import { ToolbarComponent } from './core/components/toolbar/toolbar.component';
 
 
 @Component({
